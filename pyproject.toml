@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "zoommapubl-trainplat_jd321"
+name = "zoommapubl-storage_io_compute_overlap_ratio_calc"
 version = "0.1.0"
 description = "从输入中抽取数值，计算大模型训练平台工程师·存储 IO 与计算的重叠相关的比值与占比，分母为零时明确报错"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://zoommapubl.github.io"
-Repository = "https://github.com/zoommapubl/trainplat_jd321"
-Issues = "https://github.com/zoommapubl/trainplat_jd321/issues"
+Repository = "https://github.com/zoommapubl/storage_io_compute_overlap_ratio_calc"
+Issues = "https://github.com/zoommapubl/storage_io_compute_overlap_ratio_calc/issues"
 
 [project.scripts]
-trainplat_jd321 = "trainplat_jd321:main"
+storage_io_compute_overlap_ratio_calc = "storage_io_compute_overlap_ratio_calc:main"
 
 [tool.setuptools]
-py-modules = ["trainplat_jd321"]
+py-modules = ["storage_io_compute_overlap_ratio_calc"]
